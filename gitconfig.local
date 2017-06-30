@@ -1,0 +1,12 @@
+[user]
+  name = pgtamatoa
+  email = pgpasturel@hotmail.com
+[alias]
+  d  = diff -w
+  cm = commit -m
+  br = branch
+  ca = commit --amend
+  pr = !hub pull-request
+  lg = log --pretty=format:'%C(bold)–%Creset %C(red bold)%h%d%Creset | %C(green)%an%Creset | %C(magenta)%cr%Creset | %C(cyan)%s%Creset'
+[pull]
+  rebase = true
